@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'; // Importerer React og hooks for tilstands- og livssyklusstyring
 import Card from 'react-bootstrap/Card'; // Importerer Card-komponenten fra react-bootstrap
 import Button from 'react-bootstrap/Button'; // Importerer Button-komponenten fra react-bootstrap
-import './Menu.css'; // Importerer CSS-filen for denne komponenten
+import './menuStyling.css'; // Importerer CSS-filen for denne komponenten
 import Badge from 'react-bootstrap/Badge'; // Importerer Badge-komponenten fra react-bootstrap
 
 const Menu = () => {
