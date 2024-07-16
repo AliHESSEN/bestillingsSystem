@@ -1,6 +1,6 @@
 import React from "react"; // Importerer React-biblioteket
 import Image from "./../images/gkmit.jpeg"; // Importerer et bilde fra den angitte banen
-import "./Home.css"; // Importerer stilark for denne komponenten
+import "./StylePage.css"; // Importerer stilark for denne komponenten
 
 const Home = () => { // Definerer Home-komponenten
   return (
