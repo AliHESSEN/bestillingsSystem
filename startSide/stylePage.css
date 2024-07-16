@@ -1,0 +1,94 @@
+#hero { 
+    display: table; /* Bruker table layout for sentrering */
+    width: 100%; /* Setter bredde til 100% */
+    height: 100vh; /* Setter høyde til 100% av viewport height */
+    background: url(./../images/food.webp) top center; /* Bakgrunnsbilde med topp-sentrert plassering */
+    background-size: cover; /* Dekker hele seksjonen med bakgrunnsbildet */
+}
+
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed; /* Fikserer bakgrunnen når skjermbredden er minst 1024px */
+    }
+}
+
+.heroLogo { 
+    margin: 20px; /* Setter margin */
+    opacity: 0.6; /* Setter gjennomsiktighet */
+    max-width: 25%; /* Maks bredde på 25% */
+    margin-left: 530px; /* Margin til venstre */
+}
+
+.heroContainer {
+    background: rgba(18, 19, 19, 0.4); /* Halvtransparent bakgrunnsfarge */
+    display: table-cell; /* Bruker table-cell layout for vertikal sentrering */
+    margin: 0; /* Fjerner margin */
+    padding: 0; /* Fjerner padding */
+    text-align: center; /* Sentrerer tekst horisontalt */
+    vertical-align: middle; /* Sentrerer innhold vertikalt */
+}
+
+h1 {
+    margin: 30px 0 10px 0; /* Setter margin rundt h1 */
+    font-weight: 700; /* Setter fet skrift */
+    line-height: 48px; /* Linjehøyde */
+    text-transform: uppercase; /* Endrer tekst til store bokstaver */
+    color: #fff; /* Hvit farge */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px; /* Skriftstørrelse for små skjermer */
+        line-height: 36px; /* Linjehøyde for små skjermer */
+    }
+}
+
+h2 {
+    color: #fff; /* Hvit farge */
+    margin-bottom: 50px; /* Margin under h2 */
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 24px; /* Skriftstørrelse for små skjermer */
+        line-height: 26px; /* Linjehøyde for små skjermer */
+        margin-bottom: 30px; /* Mindre margin under h2 for små skjermer */
+    }
+}
+
+.actions a {
+    text-transform: uppercase; /* Endrer tekst til store bokstaver */
+    font-weight: bold; /* Fet skrift */
+    font-size: 16px; /* Skriftstørrelse */
+    letter-spacing: 1px; /* Bokstavavstand */
+    display: inline-block; /* Viser som inline-block */
+    padding: 8px 20px; /* Innvendig padding */
+    border-radius: 2px; /* Avrundede hjørner */
+    transition: 0.5s; /* Overgangseffekt */
+    margin: 10px; /* Margin rundt lenker */
+}
+
+.main1 {
+    background: #eb9a03; /* Bakgrunnsfarge */
+    border: 2px solid #eb9a03; /* Kantfarge */
+    color: #000; /* Tekstfarge */
+    font-weight: bold; /* Fet skrift */
+}
+
+.main1:hover {
+    background: none; /* Fjerner bakgrunnsfarge ved hover */
+    border: 2px solid #fff; /* Hvit kant ved hover */
+    color: #fff; /* Hvit tekst ved hover */
+    text-decoration: none; /* Fjerner tekstdekorasjon ved hover */
+}
+
+.main2 {
+    border: 2px solid #fff; /* Hvit kant */
+    color: #fff; /* Hvit tekst */
+}
+
+.main2:hover {
+    background: #eb9a03; /* Bakgrunnsfarge ved hover */
+    border: 2px solid #eb9a03; /* Kantfarge ved hover */
+    text-decoration: none; /* Fjerner tekstdekorasjon ved hover */
+}
